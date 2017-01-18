@@ -1,5 +1,5 @@
 {
-    "name" : "qlerebours/OTPHPBundle",
+    "name" : "qlerebours/otphp-bundle",
     "description" : "A symfony bundle using OTPHP lib",
     "type" : "symfony-bundle",
     "authors" : [{
@@ -12,18 +12,19 @@
     "license" : [
         "MIT"
     ],
-    "require" : {
+    "require": {
+        "php": ">=5.4"
     },
     "autoload" : {
         "psr-0" : {
-            "qlerebours\\OTPHPBundle" : ""
+            "QLerebours\\OTPHPBundle" : ""
         }
     },
-    "target-dir" : "qlerebours/OTPHPBundle",
+    "target-dir" : "QLerebours/OTPHPBundle",
     "repositories" : [{
     }],
     "extra" : {
-    "branch-alias" : {
+    	"branch-alias" : {
             "dev-master" : "1.0.0"
         }
     }
