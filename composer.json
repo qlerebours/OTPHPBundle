@@ -1,0 +1,30 @@
+{
+    "name" : "qlerebours/OTPHPBundle",
+    "description" : "A symfony bundle using OTPHP lib",
+    "type" : "symfony-bundle",
+    "authors" : [{
+        "name" : "Quentin Lerebours",
+        "email" : "quentin.lerebours@gmail.com"
+    }],
+    "keywords" : [
+        "Symfony Bundle OTPHP"
+    ],
+    "license" : [
+        "MIT"
+    ],
+    "require" : {
+    },
+    "autoload" : {
+        "psr-0" : {
+            "qlerebours\\OTPHPBundle" : ""
+        }
+    },
+    "target-dir" : "qlerebours/OTPHPBundle",
+    "repositories" : [{
+    }],
+    "extra" : {
+    "branch-alias" : {
+            "dev-master" : "1.0.0"
+        }
+    }
+}
