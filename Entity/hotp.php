@@ -20,7 +20,7 @@
  * THE SOFTWARE.
  */
 
-namespace OTPHP {
+namespace QLerebours\OTPHPBundle\Entity {
   /**
    * HOTP - One time password generator 
    * 

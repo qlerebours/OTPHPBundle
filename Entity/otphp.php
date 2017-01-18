@@ -20,7 +20,9 @@
  * THE SOFTWARE.
  */
 
-require_once dirname(__FILE__).'/../vendor/libs.php';
+namespace QLerebours\OTPHPBundle\Entity;
+
+require_once dirname(__FILE__).'/libs.php';
 require_once dirname(__FILE__).'/otp.php';
 require_once dirname(__FILE__).'/hotp.php';
 require_once dirname(__FILE__).'/totp.php';

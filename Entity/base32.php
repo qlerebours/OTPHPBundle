@@ -8,6 +8,8 @@
  * @package default
  * @author Bryan Ruiz
  **/
+namespace QLerebours\OTPHPBundle\Entity;
+
 class Base32 {
 
    private static $map = array(
